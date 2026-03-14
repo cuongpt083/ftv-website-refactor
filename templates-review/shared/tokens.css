@@ -1,0 +1,78 @@
+:root {
+  --font-heading: "Manrope", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+
+  --color-primary: #4f46e5;
+  --color-primary-hover: #4338ca;
+  --color-deep-navy: #0b132b;
+  --color-aqua: #22d3ee;
+  --color-electric-violet: #7c3aed;
+  --color-white: #ffffff;
+  --color-cloud: #f5f7fa;
+  --color-surface: #f8fafc;
+  --color-slate-100: #e5e7eb;
+  --color-slate-300: #d1d5db;
+  --color-slate-600: #4b5563;
+  --color-slate-900: #1f2937;
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-error: #ef4444;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --space-9: 6rem;
+  --space-10: 7.5rem;
+
+  --radius-sm: 0.5rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+  --radius-hero: 1.75rem;
+  --radius-pill: 999px;
+
+  --shadow-sm: 0 4px 12px rgba(11, 19, 43, 0.06);
+  --shadow-md: 0 8px 24px rgba(11, 19, 43, 0.08);
+  --shadow-lg: 0 20px 40px rgba(11, 19, 43, 0.12);
+  --shadow-glow: 0 0 40px rgba(124, 58, 237, 0.3);
+
+  --container-width: 75rem;
+  --container-width-lg: 80rem;
+  --gutter: 1rem;
+
+  --text-display: clamp(2.75rem, 6vw, 4rem);
+  --text-h1: clamp(2.25rem, 5vw, 2.5rem);
+  --text-h2: clamp(1.875rem, 4vw, 2rem);
+  --text-h3: 1.5rem;
+  --text-h4: 1.25rem;
+  --text-body-lg: 1.125rem;
+  --text-body: 1rem;
+  --text-body-sm: 0.875rem;
+  --text-caption: 0.75rem;
+
+  --section-pad: var(--space-7);
+  --header-height: 4.5rem;
+
+  --z-header: 100;
+  --z-mobile-menu: 200;
+  --z-modal: 300;
+  --z-toast: 400;
+}
+
+@media (min-width: 40rem) {
+  :root {
+    --gutter: 1.25rem;
+    --section-pad: var(--space-8);
+  }
+}
+
+@media (min-width: 64rem) {
+  :root {
+    --gutter: 1.5rem;
+    --section-pad: var(--space-9);
+  }
+}

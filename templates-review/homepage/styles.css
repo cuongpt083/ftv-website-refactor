@@ -1,0 +1,7 @@
+@import url("../shared/tokens.css");
+@import url("../shared/layout.css");
+@import url("../shared/components.css");
+
+.homepage-hero-note {
+  margin-top: var(--space-5);
+}
