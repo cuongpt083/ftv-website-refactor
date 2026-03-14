@@ -2,11 +2,11 @@
   --font-heading: "Manrope", system-ui, sans-serif;
   --font-body: "Inter", system-ui, sans-serif;
 
-  --color-primary: #4f46e5;
-  --color-primary-hover: #4338ca;
+  --color-primary: #4b69bb;
+  --color-primary-hover: #3f5aa4;
   --color-deep-navy: #0b132b;
-  --color-aqua: #22d3ee;
-  --color-electric-violet: #7c3aed;
+  --color-accent-green: #7cbc45;
+  --color-accent-green-hover: #689f3b;
   --color-white: #ffffff;
   --color-cloud: #f5f7fa;
   --color-surface: #f8fafc;
@@ -38,7 +38,7 @@
   --shadow-sm: 0 4px 12px rgba(11, 19, 43, 0.06);
   --shadow-md: 0 8px 24px rgba(11, 19, 43, 0.08);
   --shadow-lg: 0 20px 40px rgba(11, 19, 43, 0.12);
-  --shadow-glow: 0 0 40px rgba(124, 58, 237, 0.3);
+  --shadow-glow: 0 0 36px rgba(124, 188, 69, 0.24);
 
   --container-width: 75rem;
   --container-width-lg: 80rem;

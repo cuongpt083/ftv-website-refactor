@@ -15,8 +15,8 @@ body {
   line-height: 1.6;
   color: var(--color-slate-900);
   background:
-    radial-gradient(circle at top right, rgba(34, 211, 238, 0.14), transparent 28%),
-    radial-gradient(circle at top left, rgba(124, 58, 237, 0.12), transparent 32%),
+    radial-gradient(circle at top right, rgba(124, 188, 69, 0.12), transparent 28%),
+    radial-gradient(circle at top left, rgba(75, 105, 187, 0.12), transparent 32%),
     var(--color-white);
 }
 
@@ -45,7 +45,7 @@ button,
 }
 
 :focus-visible {
-  outline: 3px solid var(--color-aqua);
+  outline: 3px solid var(--color-accent-green);
   outline-offset: 3px;
 }
 
@@ -111,7 +111,7 @@ button,
   height: 2.5rem;
   border-radius: 0.8rem;
   color: var(--color-white);
-  background: linear-gradient(135deg, var(--color-primary), var(--color-electric-violet));
+  background: linear-gradient(135deg, var(--color-primary), var(--color-accent-green));
   box-shadow: var(--shadow-glow);
 }
 
@@ -195,7 +195,7 @@ button,
 .page-section.dark {
   color: var(--color-white);
   background:
-    radial-gradient(circle at top left, rgba(34, 211, 238, 0.18), transparent 30%),
+    radial-gradient(circle at top left, rgba(124, 188, 69, 0.18), transparent 30%),
     linear-gradient(135deg, var(--color-deep-navy), #121d45);
 }
 
